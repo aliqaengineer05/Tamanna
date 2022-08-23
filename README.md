@@ -42,9 +42,9 @@ Import the Project as gradle in idea and then perform the following actions
 This requires webdriver setup. By default the tests run on Chrome, you need to set the latest chromedriver instance on your system path.
 
 Open a command window and run: Testcases will run on chrome browser as well.
-    ./gradlew clean
-    ./gradlew build
-    ./gradlew test  (For windows)
+1. ./gradlew clean
+2.   ./gradlew build
+3.  ./gradlew test  (For windows)
 
 These commands run Cucumber features using Cucumber's JUnit runner. The `@RunWith(CucumberWithSerenity.class)` annotation on the `PurchasesRunner`
 class tells JUnit to kick off Cucumber.
