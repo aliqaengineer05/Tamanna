@@ -30,7 +30,7 @@ Interface Segregation, Depedency Injection) principles together using Serenity B
 
 Git:
 
-    git clone 
+    git clone https://github.com/aliqaengineer05/Tamanna.git
 
 ## Running the Project Using Gradle
 Import the Project as gradle in idea and then perform the following actions 
